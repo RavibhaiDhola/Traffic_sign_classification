@@ -2,7 +2,6 @@ from data_loader  import data_load
 import autokeras as ak
 from sklearn.model_selection import KFold
 
-
 inputs, targets = data_load()
 
 # Define the K-fold Cross Validator
