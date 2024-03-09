@@ -4,10 +4,10 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=23:59:59
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu ##GPU run
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=8
-#SBATCH --output=nas5.out    ## Output file
+#SBATCH --output=nas5.out    ## Output file 
 
 source ~/.bashrc
 conda deactivate
