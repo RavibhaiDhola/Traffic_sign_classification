@@ -30,6 +30,3 @@ Recognition of traffic signs is an essential requirement to deploy fully autonom
      valid.p   #validation data
      signnames   #groudtruth
     ```
-     
-## Acknowledgement
-Thanks for the support during project. [University Siegen ISG](https://isg.beel.org/)
