@@ -24,6 +24,7 @@ def plot_train(data, X_train, y_train):
             if i == 2:
                 axs[j][i].set_title(str(j) + " - " + row["SignName"])
                 num_of_samples.append(len(x_selected))
+                
     print(num_of_samples)
     plt.figure(figsize=(12, 4))
     plt.bar(range(0, num_classes), num_of_samples)
