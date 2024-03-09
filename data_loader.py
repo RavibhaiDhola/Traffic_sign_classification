@@ -1,8 +1,6 @@
 import pickle
 import numpy as np
 import pandas as pd
-
-
 from preprocess import preprocess
 from keras.utils.np_utils import to_categorical
 
