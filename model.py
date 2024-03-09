@@ -19,6 +19,8 @@ def CNN_model():
     model.add(Conv2D(30, (3, 3), activation='relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Dropout(0.5))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.5))
     model.add(Flatten())
     model.add(Dense(500, activation='relu'))
     model.add(Dropout(0.5))
