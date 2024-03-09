@@ -3,7 +3,6 @@ from keras.utils.np_utils import to_categorical
 from data_loader  import data_load
 from model import CNN_model
 from utils import plot_train
- 
 from sklearn.model_selection import KFold
 from keras.preprocessing.image import ImageDataGenerator
 
